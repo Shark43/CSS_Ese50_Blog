@@ -1,0 +1,178 @@
+ @font-face {
+	font-family: 'SansationRegular';
+	src: local('Sansation'),  /* nome del font */
+	 	 url('font/Sansation_Regular.woff') format('woff'),
+		 url('font/Sansation_Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SansationRegular';
+	src: local('Sansation'),   /* nome del font */
+		 url('font/Sansation_Bold.woff') format('woff'),
+		 url('font/Sansation_Bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+ mark{
+	 background-color: #FFF;
+ }
+ body > header{
+	 margin-bottom: 20px;
+ }
+ body>header>#hgroup{
+	 margin: 15px 0;
+ }
+ body>header>#hgroup>h1{
+	 font-size: 38pt;
+	 color: #000;
+ }
+ body>header>#hgroup>h2{
+	 font-size: 18pt;
+	 color: #000;
+	 font-weight: normal;
+ }
+ body>header nav{
+	 display: none;
+	 width: 960px;
+	 padding: 20px;
+	 background-color: #FFF;
+	 border-radius: 10px;
+	 box-shadow: none;
+	 overflow: auto;
+	 box-sizing: border-box;
+ }
+ header>nav h1{
+	 font-size: 12pt;
+	 color: #000;
+	 float: left;
+ }
+ header>nav ul{
+	 list-style: none;
+	 float: right;
+ }
+ header nav ul li{
+	 float: left;
+ }
+ header nav ul li a{
+	 display: block;
+	 padding: 10px 20px;
+	 border-radius: 6px;
+	 font-size: 12pt;
+	 font-weight: bold;
+	 box-shadow: none;
+	 color: #000;
+	 background-color: #FFF;
+	 margin: 0 10px;
+	 transition: all 2s;
+ }
+ header nav ul li a:visited{
+	 color: #000;
+	 background-color: #FFF;
+ }
+ header nav ul li a:hover, header nav ul li a:focus, header nav ul li a:active{
+	 color: #000;
+	 background-color: #FFF;
+	 transform: scale(1.2);
+ }
+ body>section,body>aside{
+	 float: left;
+	 padding: 20px;
+	 margin: 0 20px 20px 0;
+	 background-color: #FFF;
+	 box-shadow: none;
+	 box-sizing: border-box;
+ }
+ body>section:nth-of-type(1){
+	 width: 420px;
+ }
+ body>section:nth-of-type(2){
+	 width: 280px;
+ }
+ body>aside{
+	display: none;
+	width: 220px;
+	margin-right: 0;
+ }
+ body>section section,body>aside section{
+	padding: 0;
+	margin: 20px 0 0 0;
+	background-color: transparent;
+	box-shadow: none;
+  }
+ body>section section{
+	 width: 380px;
+ }
+ body>aside section{
+	 margin-bottom: 30px;
+ }
+ article header{
+	 margin-bottom: 20px;
+ }
+ article footer{
+	 margin-bottom: 10px;
+ }
+ section h1{
+	 font-size: 13.5pt;
+	 margin-bottom: 5px;
+ }
+ section>h1, aside>h1{
+	 color: #000;
+	 font-size: 18pt;
+	 margin-bottom: 10px;
+ }
+ aside section>h1{
+	 font-size: 13.5pt;
+	 margin-bottom: 5px;
+ }
+
+ body>footer{
+	 width: 100%;
+	 display: none;
+	 clear: both;
+ }
+/* BODY */
+body {
+	width:960px;
+	margin:0 auto;
+	font-family: 'SansationRegular', Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	color:#000;
+	text-align:left;
+	background: url(img/sky.jpg) no-repeat center center fixed;
+	background-image: none;
+	background-size: cover;	
+	line-height:150%; /* ripsetto al default */
+}
+
+/* ************ Tag Generali ***************************** */
+
+h1, h2, h3, h4, h5, h6 { 
+    font-weight:bold;  /* il bold è tolto dal reset */	
+	line-height:120%; 
+}
+time { 
+	color: #000;
+	font-size:12px; 	 
+}
+
+a { 
+   text-decoration:none;
+   color:#000;
+}
+a:visited {color:#000;}
+a:hover  {color:#000;}
+a:focus  {color:#000;}   /* tasto tab */
+a:active {color:#000;}   /* clickato  */
+
+dl {float:left; } 
+dt {float:left; margin-right:10px; } 
+dd {float:left; margin-right:20px; }
+
+
+/* *********************** header  *************************** */
+
+
+
+
